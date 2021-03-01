@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+.fs20{
+  font-size: 20px;
+}
+.fs30{
+  font-size: 30px;
+}
+.fs50{
+  font-size: 50px;
+}
+.mt50{
+  margin-top: 50px;
+}
+.tac{
+  text-align: center;
+}
+.white{
+  color: white;
+}
+.yellow{
+  color: yellow;
+}
+
+/* Body */
+body{
+  background-color: #034820;
+}
+section{
+  display: flex;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.contenuto{
+  width: 100%;
+}
+div.giocatore1,
+div.giocatore2{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.giocatore1{
+  border-right: 1px solid white;
+}
+div.giocatore2{
+  border-left: 1px solid white;
+}
